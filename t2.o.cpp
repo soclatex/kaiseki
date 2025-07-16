@@ -64,7 +64,7 @@ int main() {
 
     // 出力
     cout << "反復回数: " << iter + 1 << endl;
-    cout << scientific << setprecision(7);
+    cout << scientific << setprecision(7);　// 小数点以下7桁で出力(書き替え)
     cout << "最大固有値 ≈ " << lambda_new << endl;
 
     cout << "対応する固有ベクトル:" << endl;
